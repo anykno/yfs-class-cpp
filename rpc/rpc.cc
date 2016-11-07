@@ -71,7 +71,6 @@
 #include <netdb.h>
 
 #include "jsl_log.h"
-#include "gettime.h"
 #include "lang/verify.h"
 
 const rpcc::TO rpcc::to_max = { 120000 };

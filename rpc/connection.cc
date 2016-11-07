@@ -11,7 +11,6 @@
 #include "slock.h"
 #include "pollmgr.h"
 #include "jsl_log.h"
-#include "gettime.h"
 #include "lang/verify.h"
 
 #define MAX_PDU (10<<20) //maximum PDF is 10M
