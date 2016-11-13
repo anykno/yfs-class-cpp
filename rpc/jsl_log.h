@@ -9,17 +9,17 @@ enum dbcode {
 	JSL_DBG_4 = 4, // Debugging
 };
 
-extern int JSL_DEBUG_LEVEL;
+extern unsigned int JSL_DEBUG_LEVEL;
 
 #define jsl_log(level,...)                                    \
 	do {                                                        \
-		if(JSL_DEBUG_LEVEL < abs(level))			      							\
+		if(JSL_DEBUG_LEVEL < level)			      							\
 		{;}                                                       \
 		else {                                                    \
 			{ printf(__VA_ARGS__);}														\
 		}                                                         \
 	} while(0)
 
-void jsl_set_debug(int level);
+void jsl_set_debug(unsigned int level);
 
 #endif // __JSL_LOG_H__

@@ -6,4 +6,6 @@ lock_tester
 *.dSYM
 rpc/librpc.a
 rpc/rpctest
+build
+.idea
 
