@@ -4,4 +4,4 @@ yfs-class-cpp
 still working on.
 Link
 ---
-    - [course site](https://pdos.csail.mit.edu/archive/6.824-2012/)
+    -[course site](https://pdos.csail.mit.edu/archive/6.824-2012/)
